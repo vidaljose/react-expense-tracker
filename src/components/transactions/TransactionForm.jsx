@@ -14,6 +14,8 @@ export const TransactionForm = () => {
             description,
             amount: +amount
         })
+        setAmount(0)
+        setDescription("")
     }
     
     return (
